@@ -1,0 +1,75 @@
+body {
+    background-color: #551B8C;
+  }
+
+  h1, h3,h4, .signup, .login{
+    text-align: center;
+  }
+  h1{
+    font-size: 55px;
+  }
+
+  h1, h4{
+    color: white;
+  }
+  
+  h3{
+    color: #D3BB80;
+    font-size: medium;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  .username, .password, .email, .signup, .login{
+    color: white;
+  }
+
+  a:link {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #fff;
+  }
+
+  a:hover {
+    color: orangered;
+    font-weight: bold;
+    text-decoration: underline orangered;
+    
+  }
+
+
+  form {
+    background-color: #615AA8;
+    padding: 20px;
+    width: 300px;
+    margin: 50px auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+
+  input[type="submit"] {
+    background-color: #551B8C;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  

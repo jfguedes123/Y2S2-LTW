@@ -1,0 +1,136 @@
+.profile {
+  color: #551b8c;
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 180px;
+}
+
+.profile h1 {
+  color: #551b8c;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 5px;
+  font-family: "Inter", Arial, sans-serif;
+  margin-top: 10px;
+}
+
+.profile h2 {
+    font-size: 35px;
+    font-family: "Inter", Arial, sans-serif; 
+}
+
+.profile img {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 20px;
+  }
+
+/* Profile Picture */
+
+.profile .profile-picture {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  float: left;
+}
+
+.profile .profile-picture img {
+  margin-right: 10px;
+  border: 10px solid black;
+}
+
+/* Profile Details */
+
+.profile .profile-details {
+    display: flex;
+    align-items: center;
+}
+
+.profile .profile-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.profile .profile-details p {
+  margin: 0;
+  color: black;
+  font-weight: bold;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 25px;
+}
+
+.profile .profile-details span {
+  color: #551b8c;
+}
+
+.profile .profile-details .usernames {
+    padding: 10px;
+    background-color: white;
+}
+
+.profile .profile-details .rank {
+    padding: 10px;
+    background-color: white;
+}
+
+.profile .profile-details .name {
+    padding: 10px;
+    background-color: white;
+}
+
+.profile .profile-details .email {
+    padding: 10px;
+    background-color: white;
+}
+
+.profile .profile-details select {
+  background-color: #551b8c;
+  font-family: "Inter", Arial, sans-serif;
+  border: none;
+  padding: 18px;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* Profile Info */
+
+.profile .personalinfo {
+    float: left;
+}
+
+.profile .personalinfo button {
+  background-color: #551b8c;
+  border: none;
+  font-family: "Inter", Arial, sans-serif;
+  padding: 18px;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.profile .personalinfo label {
+    font-family: "Inter", Arial, sans-serif;
+    color: #551b8c;
+
+    font-weight: bold;
+}
+
+.profile .personalinfo p {
+    font-family: "Inter", Arial, sans-serif;
+    color: #551b8c;
+
+    font-weight: bold;
+}

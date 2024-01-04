@@ -1,0 +1,124 @@
+/* Ticket Page */
+
+.tickets {
+  margin-left: 180px;
+  margin-bottom: 60px;
+  font-family: "Inter", Arial, sans-serif;
+}
+
+.tickets h1 {
+  color: #551b8c;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 5px;
+  font-family: "Inter", Arial, sans-serif;
+  margin-top: 10px;
+}
+
+.row {
+  margin-right: 10px;
+}
+
+/* Active Ticket */
+
+.tickets .row .column1 .activeticket h2 {
+  color: white;
+  padding: 10px;
+}
+
+.tickets .row .column1 .activeticket .activeinfo ul {
+    color: white;
+    font-family: "Inter", Arial, sans-serif;
+    font-size: large;
+  }
+
+  .tickets .row .column1 .activeticket .activeinfo ul a {
+    color: white;
+    font-family: "Inter", Arial, sans-serif;
+    font-size: large;
+  }
+
+/* Solved Ticket */
+
+.tickets .row .column2 .solvedticket h2 {
+  color: white;
+  padding: 10px;
+}
+
+.tickets .row .column2 .solvedticket .solvedinfo ul {
+    color: white;
+    font-family: "Inter", Arial, sans-serif;
+    font-size: large;
+  }
+
+  /* Assigned Ticket */
+
+.tickets .row .column3 .assignedticket h2 {
+  color: white;
+  padding: 10px;
+}
+
+.tickets .row .column3 .assignedticket .activeinfo ul {
+    color: white;
+    font-family: "Inter", Arial, sans-serif;
+    font-size: large;
+  }
+
+   /* Department Ticket */
+
+.tickets .row .column4 .departmentticket h2 {
+  color: white;
+  padding: 10px;
+}
+
+.tickets .row .column4 .departmentticket .activeinfo ul {
+    color: white;
+    font-family: "Inter", Arial, sans-serif;
+    font-size: large;
+  }
+
+
+
+
+/* New Ticket */
+
+.tickets .row .column3 .newticket h2 {
+  color: white;
+  padding: 10px;
+}
+
+.tickets .newticket p {
+  font-size: large;
+}
+
+.tickets .row .column3 .newticket form {
+  color: white;
+  font-family: "Inter", Arial, sans-serif;
+  margin-left: 10px;
+}
+
+.tickets .row .column3 .newticket form button {
+  background-color: #3e0e6a;
+  border: none;
+  font-family: "Inter", Arial, sans-serif;
+  padding: 10px;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.tickets .row .column3 .newticket textarea {
+    width: 50%;
+  height: 50px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+}

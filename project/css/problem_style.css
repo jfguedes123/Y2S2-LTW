@@ -1,0 +1,124 @@
+.ticket_info {
+  font-family: "Inter", Arial, sans-serif;
+}
+
+.ticket_info p {
+  color: white;
+  font-weight: bold;
+}
+
+.ticket_info .id {
+  background-color: white;
+  padding: 10px;
+  color: black;
+}
+
+.ticket_info .Submitter {
+  background-color: white;
+  padding: 10px;
+  color: black;
+}
+
+.ticket_info .time {
+  background-color: white;
+  padding: 10px;
+  color: black;
+}
+
+.ticket_info .description {
+  background-color: white;
+  padding: 10px;
+  color: black;
+}
+
+.ticket_info button {
+  background-color: #3e0e6a;
+  border: none;
+  font-family: "Inter", Arial, sans-serif;
+  padding: 10px;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* Chat */
+
+.chatbox {
+  font-family: "Inter", Arial, sans-serif;
+}
+
+.chatbox p {
+    font-family: "Inter", Arial, sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+.chatbox .chat {
+  font-family: "Inter", Arial, sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+.chatbox .chat a {
+    color: white;
+}
+
+.chatbox textarea {
+  width: 100%;
+  height: 50px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;   
+}
+
+.chatbox button {
+    background-color: #551b8c;
+  border: none;
+  font-family: "Inter", Arial, sans-serif;
+  padding: 10px;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* Changes */
+
+.changes {
+    font-family: "Inter", Arial, sans-serif;
+    color: white;
+}
+
+.changes p {
+    font-weight: bold;
+}
+
+
+
+
+/* Columns */
+.column {
+    float: left;
+    width: 48%;
+    padding: 10px;
+    margin-bottom: 60px;
+  }
+
+.row {
+  margin-left: 180px;
+  margin-top: 10px;
+}
